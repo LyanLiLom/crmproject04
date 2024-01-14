@@ -1,1 +1,15 @@
-hello git
+token: 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
+
+git startus: Giúp kiểm tra trạng thái của các file trong project, xem file nào là file mới, file nào là file đã chỉnh sửa
+git add: Thêm file đã thay đổi hoặc chỉnh sửa vào danh sách chờ đẩy lên git
+	cú pháp: git add tên_file tên_file2
+	git add* :Add tất cả các file thay đổi hoặc mới loại trừ file ẩn
+	git add. :Add tất cả các file thay đổi hoặc mới bao gồm file ẩn
+
+git commit: Ký xác nhận các file thay đổi đã được add vào danh sách chờ git push origin: Upload toàn bộ file trong danh sách chờ đẩy lên git lên sever git.
+
+1)Đẩy file lưu trữ ở repo đã tạo trên git.
+	Bước 1: git status
+	Bước 2: git add
+	Bước 3: git commit -m"nội dung commit"
+	Bước 4: git push origin tên_nhánh
