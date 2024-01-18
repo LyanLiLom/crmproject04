@@ -13,3 +13,5 @@ git commit: Ký xác nhận các file thay đổi đã được add vào danh s�
 	Bước 2: git add
 	Bước 3: git commit -m"nội dung commit"
 	Bước 4: git push origin tên_nhánh
+
+THêm nội dung của máy B
